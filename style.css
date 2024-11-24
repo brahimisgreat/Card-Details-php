@@ -31,6 +31,9 @@ form{
     flex-direction: column;
     gap: 20px;
 }
+#forme{
+    border: solid red 1px;
+}
 
 .expDate{
     display: flex;
@@ -67,4 +70,14 @@ img{
 
 label{
     margin-bottom: 10px;
+}
+
+
+
+
+
+/* Success.php */
+
+#id{
+    border: solid red 1px;
 }
