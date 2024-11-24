@@ -44,6 +44,7 @@ $errors = 0;
        ?>
 
         <form action="" method="post">
+            <a href="./includes/database.php">click here</a>
             <div class="form-group">
                 <label for="exampleInputEmail1">CARDHOLDER NAME</label>
                 <input type="text" id="placehold" name="cardholderName" class="<?= $nameClass ?>" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E.g jane Appleseed">

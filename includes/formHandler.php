@@ -73,13 +73,7 @@ if (isset($_POST["cardholderName"])) {
         $errors++;
     }
     if ($errors == 0) {
-        echo "<div class='alert alert-success' role='alert'>
-            Cardholder Name: $cardholderName <br>
-            Card Number: $cardNumber <br>
-            Exp. Month: $expMonth <br>
-            Exp. Year: $expYear <br>
-            CVC: $cvc <br>
-            </div>";
+        include "database.php";
     }
 }
     
